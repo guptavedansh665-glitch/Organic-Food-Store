@@ -5,22 +5,20 @@
     box-sizing: border-box;
 }
 
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(205,191,165); 
-    padding: 1rem 2rem;
+    background-color: #a99887;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     height : 80px;
+    
 }
-
-
 
 .nav-links {
     list-style: none;
     display: flex;
+    margin-right: 19px;
 }
 
 .nav-links li {
@@ -33,6 +31,7 @@
     font-size: 1rem;
     transition: color 0.3s ease;
     font-weight: bold;
+    font-style: italic;
 }
 
 .nav-links a:hover {
